@@ -1,0 +1,88 @@
+ .form-div, .picture-div,.full-width-sm {
+  position: relative;
+  min-height: 1px;
+}
+@media (min-width: 768px) {
+	.full-width-sm{
+		float: left;
+		width: 100%;
+	}
+}
+@media (min-width: 768px) {
+   .form-div,.picture-div {
+    float: left;
+  }
+  .picture-div {
+    width: 66.66666667%;
+  }
+  .form-div {
+    width: 33.33333333%;
+  }
+}
+.demo-full-width{
+	width:100%;
+}
+.btn-signup{
+	margin-top: 15px;
+    background: #5e60e5 !important;
+    width: 145px;
+    color: #e9e9fb !important;
+    padding: 8px;
+    border-radius: 30px;
+}
+.btn-signup:disabled{
+	cursor: no-drop;
+}
+
+.mt-md{
+	margin-top: 10px;
+}
+.ml-md{
+	margin-left: 10px
+}
+.mt-lg{
+	margin-top: 15px !important;
+}
+.example-header-image {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg');
+  background-size: cover;
+  margin-bottom: 20px
+}
+.mat-img{
+	/*height:70% !important;*/
+}
+.img-size{
+	width:100%;
+    height: 580px !important;
+
+}
+.bottom-right {
+    position: absolute;
+    bottom: 37% !important;
+    right: 21% !important;
+}
+.img-container{
+	position: relative;
+	
+}
+.svtime{
+	color: white;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
